@@ -1,0 +1,30 @@
+Stack ops
+
+    push special %
+        push special 0 // push null
+        push special 1 // push true
+        push special 2 // push false
+        // ...
+        
+    push string % // push const
+    push number % // push const
+    
+Variable ops    
+
+    push valueof
+        push string "varName"
+        push valueof // top of stack is value of varName
+
+    set value
+        push string "foo"
+        push string "varName"
+        set value // stack -2, varName now == "foo"
+        
+Scope ops - ??
+    
+    scope open // {
+    scope close // }
+    
+    declare
+        push string "varName"
+        declare // var varName; in current scope
