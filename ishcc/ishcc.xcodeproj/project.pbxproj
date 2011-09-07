@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0381FE0314171A1000FF9A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0381FE0214171A1000FF9A6B /* Foundation.framework */; };
+		0381FE0614171A1000FF9A6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0381FE0514171A1000FF9A6B /* main.m */; };
+		0381FE0A14171A1000FF9A6B /* ishcc.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0381FE0914171A1000FF9A6B /* ishcc.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0381FDFC14171A1000FF9A6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0381FE0A14171A1000FF9A6B /* ishcc.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0381FDFE14171A1000FF9A6B /* ishcc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ishcc; sourceTree = BUILT_PRODUCTS_DIR; };
+		0381FE0214171A1000FF9A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0381FE0514171A1000FF9A6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0381FE0814171A1000FF9A6B /* ishcc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ishcc-Prefix.pch"; sourceTree = "<group>"; };
+		0381FE0914171A1000FF9A6B /* ishcc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ishcc.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0381FDFB14171A1000FF9A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0381FE0314171A1000FF9A6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0381FDF314171A1000FF9A6B = {
+			isa = PBXGroup;
+			children = (
+				0381FE0414171A1000FF9A6B /* ishcc */,
+				0381FE0114171A1000FF9A6B /* Frameworks */,
+				0381FDFF14171A1000FF9A6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0381FDFF14171A1000FF9A6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0381FDFE14171A1000FF9A6B /* ishcc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0381FE0114171A1000FF9A6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0381FE0214171A1000FF9A6B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0381FE0414171A1000FF9A6B /* ishcc */ = {
+			isa = PBXGroup;
+			children = (
+				0381FE0514171A1000FF9A6B /* main.m */,
+				0381FE0914171A1000FF9A6B /* ishcc.1 */,
+				0381FE0714171A1000FF9A6B /* Supporting Files */,
+			);
+			path = ishcc;
+			sourceTree = "<group>";
+		};
+		0381FE0714171A1000FF9A6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0381FE0814171A1000FF9A6B /* ishcc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0381FDFD14171A1000FF9A6B /* ishcc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0381FE0D14171A1000FF9A6B /* Build configuration list for PBXNativeTarget "ishcc" */;
+			buildPhases = (
+				0381FDFA14171A1000FF9A6B /* Sources */,
+				0381FDFB14171A1000FF9A6B /* Frameworks */,
+				0381FDFC14171A1000FF9A6B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ishcc;
+			productName = ishcc;
+			productReference = 0381FDFE14171A1000FF9A6B /* ishcc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0381FDF514171A1000FF9A6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Expantra Pty. Ltd.";
+			};
+			buildConfigurationList = 0381FDF814171A1000FF9A6B /* Build configuration list for PBXProject "ishcc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0381FDF314171A1000FF9A6B;
+			productRefGroup = 0381FDFF14171A1000FF9A6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0381FDFD14171A1000FF9A6B /* ishcc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0381FDFA14171A1000FF9A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0381FE0614171A1000FF9A6B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0381FE0B14171A1000FF9A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0381FE0C14171A1000FF9A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0381FE0E14171A1000FF9A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ishcc/ishcc-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0381FE0F14171A1000FF9A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ishcc/ishcc-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0381FDF814171A1000FF9A6B /* Build configuration list for PBXProject "ishcc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0381FE0B14171A1000FF9A6B /* Debug */,
+				0381FE0C14171A1000FF9A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0381FE0D14171A1000FF9A6B /* Build configuration list for PBXNativeTarget "ishcc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0381FE0E14171A1000FF9A6B /* Debug */,
+				0381FE0F14171A1000FF9A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0381FDF514171A1000FF9A6B /* Project object */;
+}
